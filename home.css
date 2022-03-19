@@ -1,0 +1,451 @@
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.top{
+    height: 50px;
+    width: 100%;
+      border-bottom: 1px solid gray;
+      margin-top: -12px;
+}
+.ut1{
+    float: left;
+    width: 35%;
+     
+    margin-top: -12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+}
+.ut1>li{
+    float: left;
+    padding: 5px 10px;
+    list-style: none;
+}
+.ut1>li>a{
+    text-decoration: none;
+    color: rgb(82, 75, 75);
+    font-size: 13px;   
+    display: inline-block;
+}
+.DROPDOWN{
+    text-decoration: none;
+    color: rgb(82, 75, 75);
+    font-size: 13px;   
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 159px;
+    padding: 6px 13px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.ut2{
+    float: right;
+    width: 55%;
+}
+.ut2>li{
+    float: left;
+    padding: 5px 10px;
+    list-style: none;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+.ut2>li>a{
+    text-decoration: none;
+    color: rgb(82, 75, 75);
+    font-size: 13px;
+}
+.bottom{
+    height: 80px;
+    width: 100%;
+}
+.b1{
+    width: 15%;
+     
+    float: left;
+    height: 80px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+.b1>img{
+    height: 60px;
+  width: 100%;
+  margin-top: 10px;
+    
+}
+.b2{
+    float: right;
+    width: 74%;
+}
+.ub2{ 
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+.ub2>li{
+    float: left;
+    padding: 5px 15px;
+    list-style: none;
+}
+.ub2>li>a{
+    text-decoration: none;
+    color: rgb(82, 75, 75);
+    font-size: 13px;
+}
+
+ 
+
+.onehalf{
+     height: 3200px;
+    width: 100%;
+    margin-top: -13px;
+     
+}
+.carousel{
+    width: 100%;
+    height: 600px;
+    animation: jwellery 9s infinite;
+     
+       
+ 
+} 
+@keyframes jwellery{
+  0%{background-image: url("https://i.ibb.co/rGj6TPL/10-mia-Turns-2500-x-950px-min.webp");
+       background-size: 100% 600px ;}
+    33%{background-image: url( "https://i.ibb.co/mFY8J5c/2500-X950-copy-min.webp");
+        background-size: 100% 600px ;}
+    66%{background-image: url("https://i.ibb.co/qFhGvwp/Tanishq-1920-X712.jpg");
+        background-size: 100% 600px ;}
+        100%{background-image: url("https://i.ibb.co/rGj6TPL/10-mia-Turns-2500-x-950px-min.webp");
+            background-size: 100% 600px ;}
+       
+ }
+ .category{
+     height: 400px;
+     width: 98%;
+     margin-left: 2%;
+     margin-top: 40px;
+ }
+ .cheading{
+     text-align: center;
+     font-size: 45px;
+     font-family:"Garamond" ;
+ }
+ .box{
+    width:16%;
+    height:  240px;
+     float: left;
+    margin-left:  3px;
+    text-align: center;
+    line-height: 3%;
+    border-radius: 10px;
+
+ }
+ .box:hover{
+    box-shadow: 0px 0px 10px black;   
+    transform: scale(1.05);
+ }
+ .boxphoto{
+    height: 162px;
+    width: 83%;
+    border-radius: 50%;
+     margin-left: 10px;
+    }
+ .boxphoto>img{
+    height: 171px;
+    width: 107%;
+    border-radius: 50%;
+    
+}
+.box>p{
+    margin-top: 30px;
+}
+.new{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+   
+ 
+}
+.newphoto{
+    height: 300px;
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+.newphoto>img{
+    height: 300px;
+    width: 100%;
+
+}
+.gender{
+    height: 450px;
+    width: 100%;
+}
+.gbox{
+    height: 400px;
+    width: 32%;
+    margin-left: 10px;
+    float: left;
+}
+.gheading{
+    text-align: center;
+    font-size: 45px;
+    font-family:"Garamond" ;
+}
+.gboxphoto{
+    height: 350px;
+    width: 100%;
+    
+}
+.gboxphoto>img{
+    height: 350px;
+    width: 100%;
+
+}
+.gbox>p{
+   text-align: center;
+   color: gray;
+   font-size: 15px;
+
+}
+.topsell{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+.ts1{
+    width:67%;
+    height: 500px;
+    
+    float: left;
+}
+.ts1>img{
+    width:100%;
+    height: 500px;
+    
+}
+.ts2{
+    width:32%;
+     
+    height: 500px;
+    float: left;
+    
+}
+.ts2>img{
+    height: 230px;
+    width: 46%;
+    margin: 2%;
+    float:left ;
+}
+.seller{
+    width: 100%;
+    height: 450px;
+}
+.scontainer{
+    width: 80%;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 12%;
+}
+.sbox{
+    width:22%;
+    height:  240px;
+     float: left;
+    margin-left:  3px;
+    text-align: center;
+    line-height: 3%;
+    border-radius: 10px;
+    font-size: 19px;
+
+ }
+ .sbox:hover{
+    box-shadow: 0px 0px 10px black;   
+    transform: scale(1.05);
+ }
+ .sboxphoto{
+    height: 162px;
+    width: 100%;
+     
+     
+     
+ }
+ .sboxphoto>img{
+    height: 171px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.sbox>p{
+    margin-top: 30px;
+}
+.Secondhalf{
+    height: 3250px;
+    width: 100%;
+     
+}
+.vid{
+    width: 100%;
+    height: 500px;
+    
+}
+ 
+.rivaah{
+    width: 100%;
+    height: 500px;
+    
+}
+.rivaah>img{
+    width: 100%;
+    height: 500px;
+}
+
+.photo{
+    width: 100%;
+    height: 500px;
+     
+}.photo>img{
+    width: 100%;
+    height: 500px;
+    
+}
+.connect{
+    height: 400px;
+    width: 100%;
+}
+.ccontainer{
+    width: 74%;
+    height: 300px;
+    margin-left: 13%;
+}
+.con{
+    width: 30%;
+    height: 300px;
+    margin-left: 3%;
+     float: left;
+}
+.con>img{
+    width: 100%;
+    height: 300px;
+    
+}
+.promises{
+    height: 500px;
+    width: 100%;
+}
+.pcontainer{
+    width: 74%;
+    height: 400px;
+    margin-left: 13%;
+}
+.prom{
+    width: 30%;
+    height: 400px;
+    margin-left: 3%;
+     float: left;
+}
+.prom>img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.footer{
+    height: 650px;
+    width: 100%;
+}
+.ftop{
+    height: 150px;
+    width: 100%;
+    background-color:rgb(204, 204, 204);
+    
+}
+.t1{
+    width: 80%;
+    height: 90px;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 10%;
+    text-align: center;
+    
+}
+ 
+.t1>td{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-spacing: 20px;
+    width: 31%;
+}
+.fbottom{
+    width: 100%;
+    height: 800px;
+    background-color: #b0a16e;
+    color: WHITE;
+    position: ABSOLUTE;
+}   
+.fb1{
+    width: 60%;
+    height: 400px;
+    
+    float: left;
+}
+.fb1a{
+    width: 30%;
+    height: 400px; 
+    margin-left:19% ;
+    float: left;
+}
+.fb1b{
+    width: 30%;
+    height: 400px;
+  
+    margin-left:19% ;
+    float: left;
+}
+.fbu{
+    list-style: none;
+    
+}
+.fbu>li{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing:2px
+}
+.fb2{
+    width: 39%;
+    height: 600px;
+      float: left;
+}
+.fb2>input{
+    height: 60px;
+    width:40%;
+    float: left;
+    background-color: transparent;
+    color: aliceblue;
+}
+.fb2>button{
+    height: 60px;
+    width:24%;
+    background-color: white;
+    color: #b0a16e;
+ 
+}
+.app{
+    width: 50%;
+    height: 70px;
+}
+.app>img{
+    height: 45px;
+    width: 45%;
+   
+}
+
